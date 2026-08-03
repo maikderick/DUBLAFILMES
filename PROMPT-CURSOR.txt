@@ -1,0 +1,23 @@
+Nesta pasta existe o arquivo `index.html` — uma página estática única e autossuficiente
+(fontes embutidas em base64, CSS e JS inline, sem dependências externas). É a apresentação
+de vendas da DUBLA.DEV, com o WhatsApp já configurado (5581986643315). Quero publicá-la no
+Vercel e garantir que fique perfeita no celular.
+
+NÃO reescreva o design nem o conteúdo do index.html — ele já está pronto. Faça só o seguinte:
+
+1) MOBILE PERFEITO (apenas checar e corrigir o que estiver quebrando)
+   - Confirme a tag <meta name="viewport" content="width=device-width, initial-scale=1">.
+   - Não pode haver rolagem horizontal em larguras de 360px a 414px.
+   - Botões e links com área de toque mínima de ~44px.
+   - Teste em 360px, 390px e 768px.
+
+2) DEPLOY NO VERCEL (site estático, framework "Other", sem build)
+   - Instale a CLI:  npm i -g vercel
+   - Na pasta, rode:  vercel        (se pedir login/autenticação, pare e me avise)
+   - Depois:          vercel --prod
+   - Me devolva a URL pública de produção.
+
+3) VERIFICAÇÃO FINAL
+   Abra a URL de produção e confirme: a página carrega, as fontes aparecem (título na fonte
+   Bricolage Grotesque), o botão flutuante do WhatsApp abre a conversa no 81 98664-3315, e o
+   layout está correto no celular (sem rolagem lateral, textos legíveis, botões clicáveis).
