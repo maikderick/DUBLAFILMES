@@ -1,4 +1,4 @@
-# DUBLA.DEV — Apresentação (site estático)
+# NOX — Apresentação (site estático)
 
 Página única, autossuficiente (fontes, CSS e JS embutidos — sem dependências externas).
 Deploy zero-config no Vercel: ele detecta o `index.html` e serve direto.
